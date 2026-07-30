@@ -1,0 +1,20 @@
+# This pseudo-saga is just a random selection of characters at Game Start.
+# The saga is defined only for the sake of keeping spells, weapons, and armour.
+title: Own characters 
+description:
+- Pseudo-saga for personal chargen.
+
+spellFile: Data/spells.yaml
+weaponFile: Data/weapons.csv
+armourFile: Data/armour.csv
+
+# Directory where generated sheets are installed.
+rootDirectory: pages/harm/
+
+# List of characters to compile.
+characterFiles:
+- Data/odyssevs.yaml
+
+# Create sheets advanced to each of the following seasons.
+seasons:
+- Spring 1285

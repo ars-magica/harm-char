@@ -1,0 +1,30 @@
+name: 'Build mystmd'
+
+description: Build the mystmd pages
+
+runs:
+    using: "composite"
+
+    steps:
+      - name: Setup Python 3.x
+        uses: actions/setup-python@v5
+        with:
+          architecture: 'x64'
+
+      - name: pip install
+        shell: bash
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt --user
+      - name: Build HTML Assets
+        shell: bash
+        run: |
+          echo "REPO_NAME=${{ github.event.repository.name }}" 
+          BASE_URL="/${{ github.event.repository.name }}/" jupyter book build --html
+        working-directory: pages
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './pages/_build/html'
+
+
