@@ -16,5 +16,4 @@ characterFiles:
 - Data/odyssevs.yaml
 
 # Create sheets advanced to each of the following seasons.
-seasons:
-- Spring 1285
+seasons: []
