@@ -251,7 +251,7 @@ pregameAdvancement:
   - multiplicity: 1
     possession: Lantern
 - mode: Post Gauntlet
-  years: 4
+  years: 5
   changes:
   - ability: Magic Theory
     xp: 50
@@ -269,10 +269,18 @@ pregameAdvancement:
     xp: 10
   - art: Faerie Lore
     xp: 5
+  - art: Muto
+    xp: 15
+  - art: Perdo
+    xp: 15
 - mode: Post Gauntlet
   years: 1
+  - level: 15
+    spell: Whispering Winds
+    tefo: InAu
   comment:
     - Two seasons to prepare and attune talisman.
+    - One season to invent *Whispering Winds*
     - The talisman is a
       sturdy staff of oak wood (+7 protection from storms) struck by lightning (Auram +2),
       with a heavy brass (+3 music, +3 Ignem, +4 demons, devils, and angels)
