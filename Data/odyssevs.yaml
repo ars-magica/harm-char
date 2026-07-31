@@ -251,13 +251,23 @@ pregameAdvancement:
   - multiplicity: 1
     possession: Lantern
 - mode: Post Gauntlet
-  years: 2
+  years: 4
   changes:
   - ability: Magic Theory
     xp: 50
   - art: Intellego
     xp: 5
   - art: Auram
+    xp: 5
+  - art: Creo
+    xp: 15
+  - art: Rego
+    xp: 15
+  - art: Imaginem
+    xp: 15
+  - art: Intrigue
+    xp: 10
+  - art: Faerie Lore
     xp: 5
 - mode: Post Gauntlet
   years: 1
