@@ -1,6 +1,8 @@
 charID: odyssevs
 concept:
-  appearance: ""
+  appearance: |
+     Dark-haired young man of modest build but with a very charming face
+     and bright blue eyes.
   born: 1230
   charData:
     Alma Mater: Trablinum of Transilvania
@@ -28,7 +30,9 @@ pregameAdvancement:
     flaw: Higher Purpose (major)
     narrative: |
       Odyssevs have a vision of a great magical civilisation, founded
-      on the ancient powers of Hermes.
+      on the ancient powers of Hermes.  His purpose is to grow the Order
+      to the East, establishing a network of covenants reaching beyond
+      the Ural, with solid communication lines.
   - cost: -1
     flaw: Ambitious
     narrative: |
@@ -87,13 +91,12 @@ pregameAdvancement:
   - cost: 1
     virtue: Good teacher
   - cost: 1
-    virtue: Good student
+    virtue: Book learner
   - cost: 1
     virtue: Venus' Blessing
     narrative: |
       To be fair, Venus has nothing to do with this.
       It is almost certainly just another aspect of the Satyr blood.
-
   - ptrait: Uncertain faith
     score: 1
   - ptrait: Collaborative
@@ -117,9 +120,9 @@ pregameAdvancement:
   - characteristic: Str
     score: -2
   - characteristic: Dex
-    score: -1
+    score: -2
   - characteristic: Qik
-    score: -1
+    score: +1
 - mode: Early Childhood
   changes:
   - ability: 'Native Language: Ukrainian'
@@ -200,7 +203,6 @@ pregameAdvancement:
       Far from an expert on the organisation, Odyssevs seems to have a particular
       speciality of discerning what is important to his superiors, and not onlu
       his immediate superior.
-
   - ability: Hermes Code
     spec: Certamen 
     xp: 5
@@ -216,18 +218,18 @@ pregameAdvancement:
   - ability: Penetration
     spec: Rego
     xp: 5
+  - level: 5
+    spell: Prying Eyes
+    tefo: InIm
   - level: 20
-    spell: Vision of Heat's Light
-    tefo: InIg
+    spell: The Inexorable Search
+    tefo: InCo
   - level: 20
     spell: The Miner's Keen Eye
     tefo: InTe
-  - level: 10
-    spell: Winter's Icy Touch
-    tefo: PeIg
-  - level: 15
-    spell: Charge of the Angry Winds
-    tefo: CrAu
+  - level: 20
+    spell: Posing the Silent Question
+    tefo: InMe
   - level: 30
     spell: Stone Tell of the Mind That Sits
     tefo: InTe
@@ -238,9 +240,6 @@ pregameAdvancement:
       weapon:
       - Dagger
   - possession:
-      weapon:
-      - Quarterstaff
-  - possession:
       name: Writing Materials
   - combat:
       weapon: Dodge
@@ -248,30 +247,44 @@ pregameAdvancement:
       weapon: Fist
   - combat:
       weapon: Knife
+  - combat:
+      weapon: Staff
   - multiplicity: 1
     possession: Lantern
 - mode: Post Gauntlet
-  years: 5
+  years: 7
   changes:
+  # Abilities
   - ability: Magic Theory
-    xp: 50
-  - art: Intellego
-    xp: 5
-  - art: Auram
-    xp: 5
-  - art: Creo
-    xp: 15
-  - art: Rego
-    xp: 15
-  - art: Imaginem
-    xp: 15
+    xp: 45
   - ability: Intrigue
     xp: 10
   - ability: Faerie Lore
     xp: 5
+  - ability: Parma Magica
+    xp: 10
+  # Elements
+  - art: Auram
+    xp: 5
+  - art: Ignem
+    xp: 5
+  # Techniques
+  - art: Intellego
+    xp: 5
   - art: Muto
     xp: 15
   - art: Perdo
+    xp: 15
+  - art: Creo
+    xp: 21
+  - art: Rego
+    xp: 15
+  # Other Forms
+  - art: Imaginem
+    xp: 15
+  - art: Vim
+    xp: 15
+  - art: Mentem
     xp: 15
 - mode: Post Gauntlet
   years: 1
@@ -279,20 +292,45 @@ pregameAdvancement:
   - level: 15
     spell: Whispering Winds
     tefo: InAu
+  - level: 15
+    spell: Charge of the Angry Winds
+    tefo: CrAu
+  - possession:
+      name: Talisman
+      comment:
+      - "Capacity: 10p Vim Vis invested"
+      - The talisman is a sturdy staff of 
+        oak wood (+7 protection from storms) struck by lightning (Auram +2),
+        with a heavy brass (+3 music, +3 Ignem, +4 demons, devils, and angels)
+        shoe at one end and a lighter, more ornament silver
+        (+1 Terram, +2 Intellego, +3 protect spirits,
+        +5 lycanthropes in general, +10 harm lycanthrope),
+        cap at the top.
+        Under the silver cap, there are pieces of 
+        Mercury ( +3 arts and sciences, +3 Aquam, +3 Terram, +5 Muto )
+        and Cinamon (+2 destroying ghosts, +4 Imaginem).
+      - "Active Attunements: Muto +5"
   comment:
     - Two seasons to prepare and attune talisman.
-    - One season to invent *Whispering Winds*
-    - The talisman is a
-      sturdy staff of oak wood (+7 protection from storms) struck by lightning (Auram +2),
-      with a heavy brass (+3 music, +3 Ignem, +4 demons, devils, and angels)
-      shoe at one end and a lighter, more ornament silver
-      (+1 Terram, +2 Intellego, +3 protect spirits,
-      +5 lycanthropes in general, +10 harm lycanthrope),
-      cap at the top.
-      Under the silver cap, there are pieces of 
-      Mercury ( +3 arts and sciences, +3 Aquam, +3 Terram, +5 Muto )
-      and Cinamon (+2 destroying ghosts, +4 Imaginem).
+    - Two seasons to invent spells
     - The talisman is opened with 10p vis (the brass shoe is $2\times5$ for small
       base metal.  The staff is large wood ($4\times2$), the others pieces
       are tiny and less than 10.
-
+- mode: Post Gauntlet
+  years: 1
+  changes:
+  - level: 10
+    spell: "Winter's Icy Touch"
+    tefo: PeIg
+futureAdvancement: 
+- season: Spring 1290
+  changes:
+  - level: 20
+    spell: Vision of Heat's Light
+    tefo: InIg
+  - comment:
+    - |
+      Enchant talisman with a variant of *Lamp without Flame*.
+      Using the staff to touch an object and draw the sign of Ignem in the air
+      will create the effect of sun duration.
+      Lab total is 36.  Uses 6/day
