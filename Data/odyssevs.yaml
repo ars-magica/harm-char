@@ -265,9 +265,9 @@ pregameAdvancement:
     xp: 15
   - art: Imaginem
     xp: 15
-  - art: Intrigue
+  - ability: Intrigue
     xp: 10
-  - art: Faerie Lore
+  - ability: Faerie Lore
     xp: 5
   - art: Muto
     xp: 15
@@ -275,6 +275,7 @@ pregameAdvancement:
     xp: 15
 - mode: Post Gauntlet
   years: 1
+  changes:
   - level: 15
     spell: Whispering Winds
     tefo: InAu
