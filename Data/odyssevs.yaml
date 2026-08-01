@@ -369,8 +369,8 @@ pregameAdvancement:
               - Lab total 36 (MuIm 23, Inventive Genius +3, Talisman +5, Muto +5)
       comment:
       - "Capacity: 10p Vim Vis invested
-        The talisman is opened with 10p vis (the brass shoe is $2\times5$ for small
-        base metal.  The staff is large wood ($4\times2$), the others pieces
+        The talisman is opened with 10p vis (the brass shoe is $2\\times5$ for small
+        base metal.  The staff is large wood ($4\\times2$), the others pieces
         are tiny and less than 10."
       - The talisman is a sturdy staff of 
         oak wood (+7 protection from storms) struck by lightning (Auram +2),
