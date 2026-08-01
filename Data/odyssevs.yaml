@@ -256,7 +256,7 @@ pregameAdvancement:
   - multiplicity: 1
     possession: Lantern
 - mode: Post Gauntlet
-  years: 7
+  years: 8
   changes:
   # Abilities
   - ability: Magic Theory
@@ -278,14 +278,14 @@ pregameAdvancement:
   - art: Muto
     xp: 15
   - art: Perdo
-    xp: 15
+    xp: 28
   - art: Creo
     xp: 21
   - art: Rego
     xp: 15
   # Other Forms
   - art: Imaginem
-    xp: 15
+    xp: 21
   - art: Vim
     xp: 15
   - art: Mentem
@@ -325,6 +325,14 @@ pregameAdvancement:
   - level: 10
     spell: "Winter's Icy Touch"
     tefo: PeIg
+  comment:
+    - One season for talisman Power - variant of Veil of Invisibility PeIm10 
+      (Per range, Conc duration). Item maintains concentration +5.
+      Two uses +1.
+      Trigger to draw the symbol of Imaginem in the air, and then tap 
+      the toe of the wearer.
+      Lab Total 23 + Talisman 5 + Imaginem 4 = 32
+
 futureAdvancement: 
 - season: Spring 1290
   changes:
