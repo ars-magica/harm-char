@@ -91,7 +91,7 @@ pregameAdvancement:
   - cost: 1
     virtue: Good teacher
   - cost: 1
-    virtue: Book learner
+    virtue: Inventive Genius
   - cost: 1
     virtue: Venus' Blessing
     narrative: |
@@ -256,7 +256,7 @@ pregameAdvancement:
   - multiplicity: 1
     possession: Lantern
 - mode: Post Gauntlet
-  years: 8
+  years: 9
   changes:
   # Abilities
   - ability: Magic Theory
@@ -276,7 +276,7 @@ pregameAdvancement:
   - art: Intellego
     xp: 5
   - art: Muto
-    xp: 15
+    xp: 21
   - art: Perdo
     xp: 28
   - art: Creo
@@ -285,7 +285,7 @@ pregameAdvancement:
     xp: 15
   # Other Forms
   - art: Imaginem
-    xp: 21
+    xp: 28
   - art: Vim
     xp: 15
   - art: Mentem
@@ -300,10 +300,68 @@ pregameAdvancement:
   - level: 15
     spell: Charge of the Angry Winds
     tefo: CrAu
+  - level: 15
+    spell: "Freezing Voice"
+    tefo: PeIg
+    duration: Mom
+    range: Voice
+    target: Ind
+    design:
+      - Base 5, +2 Voice
+    comment:
+      - Cause +5 damage to the target.  (Base 5, +2 Voice)
+  - spell: "Pit of the Gaping Earth"
+    level: 15
+    tefo: PeTe
+  comment:
+    - Four seasons to invent spells.
+    - "Lab totals: InAu 37, CrAu 31, PeIg 30, PeTe 30"
+- mode: Post Gauntlet
+  years: 1
+  sourceQuality: 0
+  changes:
   - possession:
       name: Talisman
+      enchantment:
+        talisman: 10
+        effects:
+          - name: Invisibility of Wizard and their Talisman
+            level: 18
+            form: Im
+            technique: Re
+            duration: Conc
+            target: Ind
+            range: Per
+            modifiers: Six uses, maintain concentration.
+            description:
+                - |
+                  Trigger to draw the symbol of Imaginem in the air, and then tap 
+                  the toe of the wearer.
+            comment:
+              - Lab total 36 (PeIm 24, Inventive Genius +3, Talisman +5, Im +4)
+            design: |
+              Effect 10 (Base 4, +1 conc, +1 changing image)
+              +5 maintain conc, +3 for six uses
+          - name: "Disguise of the Transformed Image"
+            level: 15
+            form: Im
+            technique: Mu
+            duration: Sun
+            target: Ind
+            range: Touch
+            modifiers: Six uses.
+            description:
+              - "See the spell [ArM5:146]"
+              - |
+                Trigger, trace the symbol of Imaginem on the target's chest
+                with the talisman.
+            comment:
+              - Lab total 36 (MuIm 23, Inventive Genius +3, Talisman +5, Muto +5)
       comment:
-      - "Capacity: 10p Vim Vis invested"
+      - "Capacity: 10p Vim Vis invested
+        The talisman is opened with 10p vis (the brass shoe is $2\times5$ for small
+        base metal.  The staff is large wood ($4\times2$), the others pieces
+        are tiny and less than 10."
       - The talisman is a sturdy staff of 
         oak wood (+7 protection from storms) struck by lightning (Auram +2),
         with a heavy brass (+3 music, +3 Ignem, +4 demons, devils, and angels)
@@ -313,27 +371,10 @@ pregameAdvancement:
         Under the silver cap, there are pieces of 
         Mercury ( +3 arts and sciences, +3 Aquam, +3 Terram, +5 Muto )
         and Cinamon (+2 destroying ghosts, +4 Imaginem).
-      - "Active Attunements: Muto +5"
+      - "Active Attunements: Imaginem +4, Muto +5, Terram +3"
   comment:
-    - Two seasons to prepare and attune talisman.
-    - Two seasons to invent spells
-    - The talisman is opened with 10p vis (the brass shoe is $2\times5$ for small
-      base metal.  The staff is large wood ($4\times2$), the others pieces
-      are tiny and less than 10.
-- mode: Post Gauntlet
-  years: 1
-  sourceQuality: 0
-  changes:
-  - level: 10
-    spell: "Winter's Icy Touch"
-    tefo: PeIg
-  comment:
-    - One season for talisman Power - variant of Veil of Invisibility PeIm10 
-      (Per range, Conc duration). Item maintains concentration +5.
-      Two uses +1.
-      Trigger to draw the symbol of Imaginem in the air, and then tap 
-      the toe of the wearer.
-      Lab Total 23 + Talisman 5 + Imaginem 4 = 32
+    - Four seasons to prepare, attune, and enchant talisman.
+    - Lab Total 24 + Talisman 5 + Imaginem 4 + Inventive Genius = 36
 
 futureAdvancement: 
 - season: Spring 1290
@@ -343,7 +384,17 @@ futureAdvancement:
     tefo: InIg
   - comment:
     - |
-      Enchant talisman with a variant of *Lamp without Flame*.
+      Enchant talisman with a variant of *Lamp without Flame* (L10 at touch/conc).
+      Sun +5 
       Using the staff to touch an object and draw the sign of Ignem in the air
       will create the effect of sun duration.
       Lab total is 36.  Uses 6/day
+  - level: 15
+    spell: "Aura of Senseless Seduction"
+    tefo: MuIm
+    comment:
+      - All sexual features of the characters are pleasingly enhanced,
+        making sexual encounters more passionate and unforgettable.
+        The spell does not make the caster more charming at first, but
+        any emerging sexual or romantic relation becomes more seductive.
+      - Base 5 (all senses), +2 Sun
