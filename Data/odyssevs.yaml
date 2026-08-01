@@ -154,6 +154,10 @@ pregameAdvancement:
   years: 3
 - mode: Apprenticeship
   changes:
+  - lab: 
+      name: CharGen Lab
+      state:
+        aura: 3
   - art: Creo
     xp: 0
   - art: Intellego
