@@ -265,16 +265,26 @@ pregameAdvancement:
     xp: 15
   - ability: Faerie Lore
     xp: 5
+  - ability: Magic Lore
+    xp: 5
+  - ability: Hermes Lore
+    spec: Novgorod
+    xp: 5
   - ability: Parma Magica
+    xp: 25
+  - ability: Finesse
+    spec: Rego
     xp: 10
   # Elements
+  - art: Aquam
+    xp: 1
   - art: Auram
     xp: 5
   - art: Ignem
     xp: 5
   # Techniques
   - art: Intellego
-    xp: 5
+    xp: 6
   - art: Muto
     xp: 21
   - art: Perdo
