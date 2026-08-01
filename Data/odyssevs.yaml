@@ -262,7 +262,7 @@ pregameAdvancement:
   - ability: Magic Theory
     xp: 45
   - ability: Intrigue
-    xp: 10
+    xp: 15
   - ability: Faerie Lore
     xp: 5
   - ability: Parma Magica
@@ -292,6 +292,7 @@ pregameAdvancement:
     xp: 15
 - mode: Post Gauntlet
   years: 1
+  sourceQuality: 0
   changes:
   - level: 15
     spell: Whispering Winds
@@ -321,6 +322,7 @@ pregameAdvancement:
       are tiny and less than 10.
 - mode: Post Gauntlet
   years: 1
+  sourceQuality: 0
   changes:
   - level: 10
     spell: "Winter's Icy Touch"
