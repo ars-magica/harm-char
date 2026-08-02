@@ -330,13 +330,13 @@ pregameAdvancement:
     - Four seasons to invent spells.
     - "Lab totals: InAu 37, CrAu 31, PeIg 30, PeTe 30"
 - mode: Post Gauntlet
-  years: 1
+  years: 2
   sourceQuality: 0
   changes:
   - possession:
       name: Odyssevs' Staff
       enchantment:
-        talisman: 10
+        talisman: 20
         effects:
           - name: Invisibility of Wizard and their Talisman
             level: 18
@@ -372,8 +372,21 @@ pregameAdvancement:
               - |
                 Lab total 38 (MuIm 24, Inventive Genius +3, Talisman +5, Muto +5,
                 +1 for shared form with previous effect)
+          - name: "Shriek of the Impending Shafts"
+            level: 16
+            form: He
+            technique: In
+            duration: Conc
+            target: Ind
+            range: Per
+            modifiers: "Item maintains concentration. Two uses."
+            comment: 
+            - "Trigger: Trace the sign of herbam above ground and tap the wearer's forehead."
+            - |
+              "Lab Total 23 + Inventive Genius 3 + Talisman 5 + Intellego 2 = 33)
+              Duration Conc and item maintains concentration."
       comment:
-      - "Capacity: 10p Vim Vis invested
+      - "Original apacity: 10p Vim Vis invested
         The talisman is opened with 10p vis (the brass shoe is $2\\times5$ for small
         base metal.  The staff is large wood ($4\\times2$), the others pieces
         are tiny and less than 10."
@@ -386,14 +399,9 @@ pregameAdvancement:
         Under the silver cap, there are pieces of 
         Mercury ( +3 arts and sciences, +3 Aquam, +3 Terram, +5 Muto )
         and Cinamon (+2 destroying ghosts, +4 Imaginem).
-      - "Active Attunements: Imaginem +4, Muto +5, Terram +3"
-  comment:
-    - Four seasons to prepare, attune, and enchant talisman.
-- mode: Post Gauntlet
-  years: 1
-  sourceQuality: 0
-  changes:
-    possession:
+      - "Active Attunements: Imaginem +4, Muto +5, Terram +3
+        control things at a distance +4, Intellego» +2"
+  - possession:
       enchantment:
         lesseritem:
           name: Stone-Cutting Knife
@@ -402,7 +410,7 @@ pregameAdvancement:
           level: 15
           form: Te
           technique: Re
-    possession:
+  - possession:
       enchantment:
         lesseritem:
           name: Porter's Glove
@@ -412,17 +420,10 @@ pregameAdvancement:
           form: Te
           technique: Re
   comment:
+    - Three seasons to prepare and attune talisman, investing $2\\times10$p Vim vis
+    - Three seasons to enchant the Talisman.
+      A total of five bonuses are attuned.
     - One season for the Stone-Cutting Knife [Cov].
       Lab-Total 24 + Inventive Genius 3 + Bronze 3 = 30
     - One season for the Porter's Glove [Cov].
       Lab-Total 24 + Inventive Genius 3 + Bronze 3 = 30
-    - One season to invest another 10p Vim Vis in the Talisman.
-      Attunement to «control things at a distance» +4.
-      Attunement to «Ignem» +3
-    - One season to enchant talisman with
-      the *Shriek of the Impending Shafts* (InHe15) effect.
-      Lab Total 23 + Inventive Genius 3 + Talisman 5 + Intellego 2 = 33)
-      Duration Conc and item maintains concentration.  Two uses.
-      Attunement to «Intellego» +2.
-
-
