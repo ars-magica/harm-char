@@ -402,32 +402,27 @@ pregameAdvancement:
           level: 15
           form: Te
           technique: Re
+    possession:
+      enchantment:
+        lesseritem:
+          name: Porter's Glove
+          reference: "[Cov]"
+          description: a durable leather glove
+          level: 15
+          form: Te
+          technique: Re
   comment:
-    - One season for the Stone-Cutting Knife.
+    - One season for the Stone-Cutting Knife [Cov].
+      Lab-Total 24 + Inventive Genius 3 + Bronze 3 = 30
+    - One season for the Porter's Glove [Cov].
       Lab-Total 24 + Inventive Genius 3 + Bronze 3 = 30
     - One season to invest another 10p Vim Vis in the Talisman.
       Attunement to «control things at a distance» +4.
+      Attunement to «Ignem» +3
+    - One season to enchant talisman with
+      the *Shriek of the Impending Shafts* (InHe15) effect.
+      Lab Total 23 + Inventive Genius 3 + Talisman 5 + Intellego 2 = 33)
+      Duration Conc and item maintains concentration.  Two uses.
+      Attunement to «Intellego» +2.
 
 
-futureAdvancement: 
-- season: Spring 1290
-  changes:
-  - level: 20
-    spell: Vision of Heat's Light
-    tefo: InIg
-  - comment:
-    - |
-      Enchant talisman with a variant of *Lamp without Flame* (L10 at touch/conc).
-      Sun +5 
-      Using the staff to touch an object and draw the sign of Ignem in the air
-      will create the effect of sun duration.
-      Lab total is 36.  Uses 6/day
-  - level: 15
-    spell: "Aura of Senseless Seduction"
-    tefo: MuIm
-    comment:
-      - All sexual features of the characters are pleasingly enhanced,
-        making sexual encounters more passionate and unforgettable.
-        The spell does not make the caster more charming at first, but
-        any emerging sexual or romantic relation becomes more seductive.
-      - Base 5 (all senses), +2 Sun

@@ -1,0 +1,24 @@
+
+
+futureAdvancement: 
+- season: Spring 1290
+  changes:
+  - level: 20
+    spell: Vision of Heat's Light
+    tefo: InIg
+  - comment:
+    - |
+      Enchant talisman with a variant of *Lamp without Flame* (L10 at touch/conc).
+      Sun +5 
+      Using the staff to touch an object and draw the sign of Ignem in the air
+      will create the effect of sun duration.
+      Lab total is 36.  Uses 6/day
+  - level: 15
+    spell: "Aura of Senseless Seduction"
+    tefo: MuIm
+    comment:
+      - All sexual features of the characters are pleasingly enhanced,
+        making sexual encounters more passionate and unforgettable.
+        The spell does not make the caster more charming at first, but
+        any emerging sexual or romantic relation becomes more seductive.
+      - Base 5 (all senses), +2 Sun
