@@ -15,6 +15,7 @@ rootDirectory: pages/harm/
 characterFiles:
 - Data/odyssevs.yaml
 - Data/talisman.yaml
+- Data/tessa.yaml
 
 # Create sheets advanced to each of the following seasons.
 seasons: []

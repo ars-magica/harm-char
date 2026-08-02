@@ -18,6 +18,8 @@ project:
     - title: Testing
       children:
       - file: harm/0010_GameStart/Talisman Tester ex Tremere (Game Start).md
+      - file: harm/0010_GameStart/Tessa Tanagh (Game Start).md
+
 site:
   template: book-theme
   # options:

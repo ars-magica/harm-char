@@ -13,3 +13,4 @@ The following characters are here to test bugs and development features
 in hArM.
 
 + [](harm/0010_GameStart/Talisman%20Tester%20ex%20Tremere%20%28Game%20Start%29)
++ [](harm/0010_GameStart/Tessa%20Tanagh%20%28Game%20Start%29)
