@@ -2,7 +2,10 @@ charID: odyssevs
 concept:
   appearance: |
      Dark-haired young man of modest build but with a very charming face
-     and bright blue eyes.
+     and bright blue eyes.  Except for the most formal occasions, suitable
+     for the formal robes of the House, he is always dressed to go out in
+     the field.  He favours dark blue and grey, although not quite as drark
+     as to confuse them with the official Tremere colours.
   born: 1230
   charData:
     Alma Mater: Trablinum of Transilvania
@@ -279,7 +282,7 @@ pregameAdvancement:
   - art: Aquam
     xp: 1
   - art: Auram
-    xp: 5
+    xp: 3
   - art: Ignem
     xp: 5
   # Techniques
@@ -290,12 +293,12 @@ pregameAdvancement:
   - art: Perdo
     xp: 28
   - art: Creo
-    xp: 21
+    xp: 15
   - art: Rego
     xp: 15
   # Other Forms
   - art: Imaginem
-    xp: 28
+    xp: 36
   - art: Vim
     xp: 15
   - art: Mentem
@@ -348,12 +351,12 @@ pregameAdvancement:
                   Trigger to draw the symbol of Imaginem in the air, and then tap 
                   the toe of the wearer.
             comment:
-              - Lab total 36 (PeIm 24, Inventive Genius +3, Talisman +5, Im +4)
+              - Lab total 37 (PeIm 25, Inventive Genius +3, Talisman +5, Im +4)
             design: |
               Effect 10 (Base 4, +1 conc, +1 changing image)
-              +5 maintain conc, +3 for six uses
+              +5 maintain conc, +4 for twelve uses
           - name: "Disguise of the Transformed Image"
-            level: 15
+            level: 19
             form: Im
             technique: Mu
             duration: Sun
@@ -366,14 +369,16 @@ pregameAdvancement:
                 Trigger, trace the symbol of Imaginem on the target's chest
                 with the talisman.
             comment:
-              - Lab total 36 (MuIm 23, Inventive Genius +3, Talisman +5, Muto +5)
+              - |
+                Lab total 38 (MuIm 24, Inventive Genius +3, Talisman +5, Muto +5,
+                +1 for shared form with previous effect)
       comment:
       - "Capacity: 10p Vim Vis invested
         The talisman is opened with 10p vis (the brass shoe is $2\\times5$ for small
         base metal.  The staff is large wood ($4\\times2$), the others pieces
         are tiny and less than 10."
-      - The talisman is a sturdy staff of 
-        oak wood (+7 protection from storms) struck by lightning (Auram +2),
+      - The talisman is a sturdy staff (project bolt or other missile ++)
+        of oak wood (+7 protection from storms) struck by lightning (Auram +2),
         with a heavy brass (+3 music, +3 Ignem, +4 demons, devils, and angels)
         shoe at one end and a lighter, more ornament silver cap at the top.
         (+1 Terram, +2 Intellego, +3 protect spirits,
@@ -384,7 +389,25 @@ pregameAdvancement:
       - "Active Attunements: Imaginem +4, Muto +5, Terram +3"
   comment:
     - Four seasons to prepare, attune, and enchant talisman.
-    - Lab Total 24 + Talisman 5 + Imaginem 4 + Inventive Genius = 36
+- mode: Post Gauntlet
+  years: 1
+  sourceQuality: 0
+  changes:
+    possession:
+      enchantment:
+        lesseritem:
+          name: Stone-Cutting Knife
+          reference: "[Cov]"
+          description: a bronze chisel
+          level: 15
+          form: Te
+          technique: Re
+  comment:
+    - One season for the Stone-Cutting Knife.
+      Lab-Total 24 + Inventive Genius 3 + Bronze 3 = 30
+    - One season to invest another 10p Vim Vis in the Talisman.
+      Attunement to «control things at a distance» +4.
+
 
 futureAdvancement: 
 - season: Spring 1290
