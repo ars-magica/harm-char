@@ -335,6 +335,7 @@ pregameAdvancement:
   changes:
   - possession:
       name: Odyssevs' Staff
+      unique: true
       enchantment:
         talisman: 10
         effects:
@@ -372,8 +373,12 @@ pregameAdvancement:
               - |
                 Lab total 38 (MuIm 24, Inventive Genius +3, Talisman +5, Muto +5,
                 +1 for shared form with previous effect)
+        attunements: 
+        - "Imaginem +4"
+        - "Muto +5"
+        - "Control things at a distance +4"
       comment:
-      - "Capacity: 10p Vim Vis invested
+      - "Original apacity: 10p Vim Vis invested
         The talisman is opened with 10p vis (the brass shoe is $2\\times5$ for small
         base metal.  The staff is large wood ($4\\times2$), the others pieces
         are tiny and less than 10."
@@ -386,7 +391,6 @@ pregameAdvancement:
         Under the silver cap, there are pieces of 
         Mercury ( +3 arts and sciences, +3 Aquam, +3 Terram, +5 Muto )
         and Cinamon (+2 destroying ghosts, +4 Imaginem).
-      - "Active Attunements: Imaginem +4, Muto +5, Terram +3"
   comment:
     - Four seasons to prepare, attune, and enchant talisman.
 - mode: Post Gauntlet
@@ -414,42 +418,8 @@ pregameAdvancement:
   - possession:
       name: Odyssevs' Staff
       enchantment:
-        talisman: 20
+        talisman: 10
         effects:
-          - name: Invisibility of Wizard and their Talisman
-            level: 18
-            form: Im
-            technique: Re
-            duration: Conc
-            target: Ind
-            range: Per
-            modifiers: Six uses, maintain concentration.
-            description:
-                - |
-                  Trigger to draw the symbol of Imaginem in the air, and then tap 
-                  the toe of the wearer.
-            comment:
-              - Lab total 37 (PeIm 25, Inventive Genius +3, Talisman +5, Im +4)
-            design: |
-              Effect 10 (Base 4, +1 conc, +1 changing image)
-              +5 maintain conc, +4 for twelve uses
-          - name: "Disguise of the Transformed Image"
-            level: 19
-            form: Im
-            technique: Mu
-            duration: Sun
-            target: Ind
-            range: Touch
-            modifiers: Six uses.
-            description:
-              - "See the spell [ArM5:146]"
-              - |
-                Trigger, trace the symbol of Imaginem on the target's chest
-                with the talisman.
-            comment:
-              - |
-                Lab total 38 (MuIm 24, Inventive Genius +3, Talisman +5, Muto +5,
-                +1 for shared form with previous effect)
           - name: "Shriek of the Impending Shafts"
             level: 16
             form: He
@@ -463,22 +433,9 @@ pregameAdvancement:
             - |
               "Lab Total 23 + Inventive Genius 3 + Talisman 5 + Intellego 2 = 33)
               Duration Conc and item maintains concentration."
-      comment:
-      - "Original apacity: 10p Vim Vis invested
-        The talisman is opened with 10p vis (the brass shoe is $2\\times5$ for small
-        base metal.  The staff is large wood ($4\\times2$), the others pieces
-        are tiny and less than 10."
-      - The talisman is a sturdy staff (project bolt or other missile ++)
-        of oak wood (+7 protection from storms) struck by lightning (Auram +2),
-        with a heavy brass (+3 music, +3 Ignem, +4 demons, devils, and angels)
-        shoe at one end and a lighter, more ornament silver cap at the top.
-        (+1 Terram, +2 Intellego, +3 protect spirits,
-        +5 lycanthropes in general, +10 harm lycanthrope),
-        Under the silver cap, there are pieces of 
-        Mercury ( +3 arts and sciences, +3 Aquam, +3 Terram, +5 Muto )
-        and Cinamon (+2 destroying ghosts, +4 Imaginem).
-      - "Active Attunements: Imaginem +4, Muto +5, Terram +3
-        control things at a distance +4, Intellego» +2"
+        attunements: 
+        - "Terram +3"
+        - "Intellego» +2"
   comment:
     - One season for the Stone-Cutting Knife [Cov].
       Lab-Total 24 + Inventive Genius 3 + Bronze 3 = 30
