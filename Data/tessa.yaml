@@ -146,3 +146,10 @@ pregameAdvancement:
   - ability: Thrown
     spec: Shortbow
     xp: 75
+futureAdvancement:
+- season: Spring 1240
+  mode: Practice
+  changes:
+  - art: Hunt
+  narrative: Foraging for a season
+  sourceQuality: 4

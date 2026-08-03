@@ -17,4 +17,5 @@ characterFiles:
 - Data/tessa.yaml
 
 # Create sheets advanced to each of the following seasons.
-seasons: []
+seasons: 
+- Winter 1300
