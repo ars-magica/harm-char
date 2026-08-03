@@ -20,7 +20,7 @@ concept:
   house: Tremere
   name: Odyssevs
   player: George
-  quirk: ""
+  quirk: "-"
 pregameAdvancement:
 - mode: Virtues and Flaws
   changes:
@@ -347,10 +347,9 @@ pregameAdvancement:
             target: Ind
             range: Per
             modifiers: Six uses, maintain concentration.
-            description:
-                - |
-                  Trigger to draw the symbol of Imaginem in the air, and then tap 
-                  the toe of the wearer.
+            trigger: |
+               Draw the symbol of Imaginem in the air, and then tap the toe of
+               the wearer.
             comment:
               - Lab total 37 (PeIm 25, Inventive Genius +3, Talisman +5, Im +4)
             design: |
@@ -364,10 +363,9 @@ pregameAdvancement:
             target: Ind
             range: Touch
             modifiers: Six uses.
-            description:
-              - "See the spell [ArM5:146]"
-              - |
-                Trigger, trace the symbol of Imaginem on the target's chest
+            reference: "See the spell [ArM5:146]"
+            trigger: |
+                Trace the symbol of Imaginem on the target's chest
                 with the talisman.
             comment:
               - |
@@ -401,7 +399,7 @@ pregameAdvancement:
       enchantment:
         lesseritem:
           name: Stone-Cutting Knife
-          reference: "[Cov]"
+          reference: "[@cov]"
           description: a bronze chisel
           level: 15
           form: Te
@@ -410,7 +408,7 @@ pregameAdvancement:
       enchantment:
         lesseritem:
           name: Porter's Glove
-          reference: "[Cov]"
+          reference: "[@cov]"
           description: a durable leather glove
           level: 15
           form: Te
@@ -428,8 +426,8 @@ pregameAdvancement:
             target: Ind
             range: Per
             modifiers: "Item maintains concentration. Two uses."
+            trigger: "Trace the sign of herbam above ground and tap the wearer's forehead."
             comment: 
-            - "Trigger: Trace the sign of herbam above ground and tap the wearer's forehead."
             - |
               "Lab Total 23 + Inventive Genius 3 + Talisman 5 + Intellego 2 = 33)
               Duration Conc and item maintains concentration."
@@ -437,17 +435,14 @@ pregameAdvancement:
         - "Terram +3"
         - "Intellego» +2"
   comment:
-    - One season for the Stone-Cutting Knife [Cov].
-      Lab-Total 24 + Inventive Genius 3 + Bronze 3 = 30
-    - One season for the Porter's Glove [Cov].
-      Lab-Total 24 + Inventive Genius 3 + Bronze 3 = 30
-    - One season to invest another 10p Vim Vis in the Talisman.
-      Attunement to «control things at a distance» +4.
-      Attunement to «Ignem» +3
+    - "One season for the Stone-Cutting Knife [@cov].
+      Lab-Total 24 + Inventive Genius 3 + Bronze 3 = 30"
+    - "One season for the Porter's Glove [@cov].
+      Lab-Total 24 + Inventive Genius 3 + Bronze 3 = 30"
+    - "One season to invest another 10p Vim Vis in the Talisman."
     - One season to enchant talisman with
       the *Shriek of the Impending Shafts* (InHe15) effect.
       Lab Total 23 + Inventive Genius 3 + Talisman 5 + Intellego 2 = 33)
       Duration Conc and item maintains concentration.  Two uses.
-      Attunement to «Intellego» +2.
 
 
