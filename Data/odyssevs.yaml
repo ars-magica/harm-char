@@ -385,6 +385,12 @@ pregameAdvancement:
             - |
               "Lab Total 23 + Inventive Genius 3 + Talisman 5 + Intellego 2 = 33)
               Duration Conc and item maintains concentration."
+        attunements: 
+        - "Imaginem +4"
+        - "Muto +5"
+        - "Terram +3"
+        - "Control things at a distance +4"
+        - "Intellego» +2"
       comment:
       - "Original apacity: 10p Vim Vis invested
         The talisman is opened with 10p vis (the brass shoe is $2\\times5$ for small
@@ -399,8 +405,6 @@ pregameAdvancement:
         Under the silver cap, there are pieces of 
         Mercury ( +3 arts and sciences, +3 Aquam, +3 Terram, +5 Muto )
         and Cinamon (+2 destroying ghosts, +4 Imaginem).
-      - "Active Attunements: Imaginem +4, Muto +5, Terram +3
-        control things at a distance +4, Intellego» +2"
   - possession:
       enchantment:
         lesseritem:
