@@ -147,7 +147,7 @@ pregameAdvancement:
     spec: Shortbow
     xp: 75
 futureAdvancement:
-- season: Spring 1240
+- season: Summer 1250
   mode: Practice
   changes:
   - art: Hunt
