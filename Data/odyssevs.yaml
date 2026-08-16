@@ -6,7 +6,7 @@ concept:
      for the formal robes of the House, he is always dressed to go out in
      the field.  He favours dark blue and grey, although not quite as drark
      as to confuse them with the official Tremere colours.
-  born: 1230
+  born: 1249
   charData:
     Alma Mater: Trablinum of Transilvania
     Casting Sigil: Rocking as if in rough sea
@@ -20,7 +20,8 @@ concept:
   house: Tremere
   name: Odyssevs
   player: George
-  quirk: "-"
+  quote: "Dear sodales, as you well know ..."
+  quirk: "Tends to be overfriendly with anyone."
 pregameAdvancement:
 - mode: Virtues and Flaws
   changes:
@@ -128,8 +129,8 @@ pregameAdvancement:
     score: +1
 - mode: Early Childhood
   changes:
-  - ability: 'Native Language: Ukrainian'
-    spec: Coastal
+  - ability: 'Native Language: East Slavonic'
+    spec: Ukrainian
     xp: 75
   - ability: 'Area Lore: Kievan Rus'
     spec: Don valley
@@ -208,7 +209,7 @@ pregameAdvancement:
     xp: 5
     narrative: |
       Far from an expert on the organisation, Odyssevs seems to have a particular
-      speciality of discerning what is important to his superiors, and not onlu
+      speciality of discerning what is important to his superiors, and not only
       his immediate superior.
   - ability: Hermes Code
     spec: Certamen 
@@ -376,10 +377,11 @@ pregameAdvancement:
         - "Muto +5"
         - "Control things at a distance +4"
       comment:
-      - "Original apacity: 10p Vim Vis invested
+      - "Original capacity: 10p Vim Vis invested
         The talisman is opened with 10p vis (the brass shoe is $2\\times5$ for small
         base metal.  The staff is large wood ($4\\times2$), the others pieces
         are tiny and less than 10."
+      description:
       - The talisman is a sturdy staff (project bolt or other missile ++)
         of oak wood (+7 protection from storms) struck by lightning (Auram +2),
         with a heavy brass (+3 music, +3 Ignem, +4 demons, devils, and angels)
