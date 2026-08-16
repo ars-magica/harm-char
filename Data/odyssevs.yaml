@@ -104,6 +104,8 @@ pregameAdvancement:
       It is almost certainly just another aspect of the Satyr blood.
   - ptrait: Uncertain faith
     score: 1
+  - ptrait: Orderly
+    score: 1
   - ptrait: Collaborative
     score: 1
   - ptrait: Ambitious
