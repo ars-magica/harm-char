@@ -1,11 +1,13 @@
 charID: odyssevs
 concept:
-  appearance: |
+  appearance:
+  - |
      Dark-haired young man of modest build but with a very charming face
-     and bright blue eyes.  Except for the most formal occasions, suitable
-     for the formal robes of the House, he is always dressed to go out in
-     the field.  He favours dark blue and grey, although not quite as drark
-     as to confuse them with the official Tremere colours.
+     and bright blue eyes.  He usually dresses poshly, like a diplomat or
+     advisor to the high nobility, including moderately expensive jewelry.
+     He favours dark blue and grey, although not quite as drark as to confuse 
+     them with the official Tremere colours.  He keeps a worn set of clothing
+     for rough fieldwork though.
   born: 1249
   charData:
     Alma Mater: Trablinum of Transilvania
