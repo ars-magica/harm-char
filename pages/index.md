@@ -6,7 +6,7 @@ We have tried to make the character design work with hArM as is, as far
 as it goes.  
 
 + [](harm/0010_GameStart/Odyssevs%20ex%20Tremere%20%28Game%20Start%29.md)
-+ [](harm/1283_Summer1283/Odyssevs%20ex%20Tremere%20%28Summer%201282%29.md)
++ [](harm/1283_Summer1283/Odyssevs%20ex%20Tremere%20%28Spring%201283%29.md)
 
 ## Development
 
