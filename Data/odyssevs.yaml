@@ -446,3 +446,57 @@ pregameAdvancement:
       Duration Conc and item maintains concentration.  Two uses.
 
 
+futureAdvancement:
+- season: Spring 1282
+  mode: Exposure Work
+  narrative: Installing himself in the lab.
+  changes:
+  - ability: Magic Theory
+  - lab:
+      name: Odyssevs' Lab at Zakladnu
+      narrative: A large room adjacent to his living quarters.
+      state:
+        aura: 5
+        virtues:
+        - name: Dedicated Building
+          bonus:
+          - name: General Quality
+            score: 1
+          - name: Upkeep
+            score: 2
+          - name: Activity
+            score: 1
+            specialisation: Experimentation
+- season: Summer 1282
+  changes:
+    - ability: Parma Magica
+    - spell: Proving the Alignment of Herbam 
+      tefo: InVi
+      level: 5
+      comment:
+        - Touch, Momentary, Individual
+        - Tells the caster if the Aura they are in is aligned to the Art of Herbam.
+    - spell: Listening to the Magical Veil
+      tefo: InVi
+      level: 25
+      comment:
+      - Touch, Sun, Hearing
+      - |
+        Allows the caster to hear the boundaries of Magical regiones and 
+        learn their rough shape. The caster cannot lead others through 
+        with this spell unless it becomes Vision target. 
+        Due to Experimentation this spell can detect both Magic and Faerie regiones
+- season: Autumn 1282
+  mode: Reading
+  changes:
+    - art: Terram
+      levelCap: 16
+      xp: 19
+  narrative: Reads the Terram Summa L16Q19
+- season: Winter 1282
+  mode: Reading
+  changes:
+    - art: Terram
+      levelCap: 16
+      xp: 19
+  narrative: Reads the Terram Summa L16Q19
