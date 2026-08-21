@@ -19,7 +19,7 @@ project:
     - title: Testing
       children:
       - file: harm/0010_GameStart/Tessa Tanagh (Game Start).md
-      - file: harm/1300_Winter1300/Tessa Tanagh (Winter 1220).md
+      - file: harm/1283_Summer1283/Tessa Tanagh (Summer 1250).md
 
 site:
   template: book-theme

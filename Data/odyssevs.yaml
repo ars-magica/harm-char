@@ -451,10 +451,11 @@ pregameAdvancement:
 
 futureAdvancement:
 - season: Spring 1282
-  mode: Exposure Work
+  mode: "Exposure: Work"
   narrative: Installing himself in the lab.
   changes:
   - ability: Magic Theory
+    xp: 2
   - lab:
       name: Odyssevs' Lab at Zakladnu
       narrative: A large room adjacent to his living quarters.
@@ -471,8 +472,10 @@ futureAdvancement:
             score: 1
             specialisation: Experimentation
 - season: Summer 1282
+  mode: "Exposure: Lab Work"
   changes:
     - ability: Parma Magica
+      xp: 2
     - spell: Proving the Alignment of Herbam 
       tefo: InVi
       level: 5
