@@ -503,3 +503,10 @@ futureAdvancement:
       levelCap: 16
       xp: 19
   narrative: Reads the Terram Summa L16Q19
+- season: Spring 1283
+  mode: Reading
+  changes:
+    - art: Terram
+      levelCap: 16
+      xp: 19
+  narrative: Reads the Terram Summa L16Q19
