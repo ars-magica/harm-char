@@ -447,8 +447,6 @@ pregameAdvancement:
       the *Shriek of the Impending Shafts* (InHe15) effect.
       Lab Total 23 + Inventive Genius 3 + Talisman 5 + Intellego 2 = 33)
       Duration Conc and item maintains concentration.  Two uses.
-
-
 futureAdvancement:
 - season: Spring 1282
   mode: "Exposure: Work"
@@ -513,3 +511,25 @@ futureAdvancement:
       levelCap: 16
       xp: 19
   narrative: Reads the Terram Summa L16Q19
+- season: Summer 1283
+  mode: Adventure
+- season: Autumn 1283
+  mode: Reading
+  changes:
+    - art: Terram
+      levelCap: 16
+      xp: 19
+  narrative: Reads the Terram Summa L16Q19
+- season: Winter 1283
+  mode: Reading
+  changes:
+    - art: Terram
+      levelCap: 16
+      xp: 19
+  narrative: Reads the Terram Summa L16Q19
+- season: Spring 1284
+  mode: "Exposure: Lab Work"
+  narrative: Make Lesser Enchanted Devices from lab texts (ReTe)
+  changes:
+  - ability: Magic Theory
+    xp: 2
