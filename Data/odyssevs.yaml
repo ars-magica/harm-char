@@ -7,7 +7,7 @@ concept:
      He favours dark blue and grey, although not quite as drark as to confuse 
      them with the official Tremere colours.  He keeps a worn set of clothing
      for rough fieldwork though.
-  born: 1249
+  born: 1247
   charData:
     Alma Mater: Trablinum of Transilvania
     Casting Sigil: Rocking as if in rough sea
@@ -104,6 +104,8 @@ pregameAdvancement:
       It is almost certainly just another aspect of the Satyr blood.
   - ptrait: Uncertain faith
     score: 1
+  - ptrait: Orderly
+    score: 1
   - ptrait: Collaborative
     score: 1
   - ptrait: Ambitious
@@ -140,7 +142,7 @@ pregameAdvancement:
     spec: Searching
     xp: 5
   - ability: Charm
-    spec: 
+    spec: First Impression
     xp: 15
   - ability: Folk Ken
     spec: Trade
@@ -148,6 +150,8 @@ pregameAdvancement:
   - ability: Stealth
     spec: Hiding
     xp: 5
+  - ability: Second Sight
+    spec: Regione
 - mode: Later Life
   changes:
   - ability: Intrigue
@@ -269,8 +273,10 @@ pregameAdvancement:
   - ability: Intrigue
     xp: 15
   - ability: Faerie Lore
+    spec: Faeries of the Sea
     xp: 5
   - ability: Magic Lore
+    spec: Hedge powers
     xp: 5
   - ability: Hermes Lore
     spec: Novgorod
@@ -441,7 +447,7 @@ pregameAdvancement:
     - "One season for the Stone-Cutting Knife [@cov].
       Lab-Total 24 + Inventive Genius 3 + Bronze 3 = 30"
     - "One season for the Porter's Glove [@cov].
-      Lab-Total 24 + Inventive Genius 3 + Bronze 3 = 30"
+      Lab-Total 24 + Inventive Genius 3 + Glove 4 = 31"
     - "One season to invest another 10p Vim Vis in the Talisman."
     - One season to enchant talisman with
       the *Shriek of the Impending Shafts* (InHe15) effect.
