@@ -534,8 +534,21 @@ futureAdvancement:
       xp: 19
   narrative: Reads the Terram Summa L16Q19
 - season: Spring 1284
+  mode: "Taught"
+  narrative: Taught by Dijana
+  changes:
+  - ability: Parma Magica
+    xp: 18
+- season: Summer 1284
   mode: "Exposure: Lab Work"
   narrative: Make Lesser Enchanted Devices from lab texts (ReTe)
+  comment: The tribunal also convened this season.
   changes:
   - ability: Magic Theory
     xp: 2
+- season: Spring 1286
+  mode: "Taught"
+  narrative: Taught by Aurorus
+  changes:
+  - ability: Magic Theory
+    xp: 20

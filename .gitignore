@@ -3,3 +3,4 @@ pages/harm
 *.hp
 *.log
 *.err
+.*.swp
